@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "bet.astral.inventorytweaks.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "BaseItemScreenMixin",
+    "HotbarMixin",
+    "ItemSlotWidgetMixin",
+    "FurnaceScreenMixin",
+    "FurnaceContainerMixin",
+    "CraftingScreenMixin",
+    "CraftingContainerMixin",
+
+    "SkipAlphaScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
