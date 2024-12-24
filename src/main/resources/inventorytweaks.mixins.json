@@ -12,9 +12,7 @@
     "FurnaceScreenMixin",
     "FurnaceContainerMixin",
     "CraftingScreenMixin",
-    "CraftingContainerMixin",
-
-    "SkipAlphaScreenMixin"
+    "CraftingContainerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
