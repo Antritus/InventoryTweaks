@@ -8,7 +8,7 @@
     "Antritus"
   ],
   "meta": {
-    "icon": "example-mod:icons/icon.png"
+    "icon": "inventorytweaks:icons/icon.png"
   },
   "entrypoints": {
     "client_init": [

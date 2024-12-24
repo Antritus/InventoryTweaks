@@ -30,11 +30,5 @@ public abstract class BaseItemScreenMixin{
             ExtendedHotbar extendedHotbar = (ExtendedHotbar) UI.hotbar;
             extendedHotbar.canChangeSlot(true);
         }
-
-        if (slotWidgets != null){
-            for (ItemSlotWidget slotWidget : slotWidgets) {
-                slotWidget.hoveredOver = false;
-            }
-        }
     }
 }
